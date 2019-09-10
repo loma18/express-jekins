@@ -1,4 +1,4 @@
-Jenkinsfile (Declarative Pipeline)
+#!/usr/bin/env groovy Jenkinsfile
 pipeline {
     agent { docker 'node:6.3' }
     stages {
